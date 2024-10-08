@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <h1>Travel reservatiom form</h1>
+    <h2>* denotes mandotory</h2>
+    <form action="/submit_form" method="post"></form>
+    <article>Full name*:</article>
+        <input type="text" id="name" name="name" placeholder="FirstName LastName">
+    <article>Email Address*:</article>
+        <input type="email" id="email" name="email" placeholder="EMAIL_ADDRESS">
+    <article>Select Tour Package*:</article>
+    <select id="GOA" name="GOA" >
+        <Option value="option1">GOA </Option>
+        <Option value="option2">SUB </Option>
+    </select>
+    <article>Arrival date*:</article>
+        <input type="m/d/y" id="m/d/y" name="m/d/y" placeholder="m/d/y">
+    <article>Number of persons*:</article>
+        <input placeholder="UNKNOWN_TYPE">
+    <article>What would you want to avail?*</article>
+        <article>Boarding<input type="checkbox" name="service" value="boarding"></article>
+        <article>Fooding<input type="checkbox" name="service" value="fooding"></article>
+        <article>Sight seeing<input type="checkbox" name="service" value="Sight seeing"></article>
+    <article>Discount Coupon code:</article>
+    <input type="Discount Coupon code:" id="Discount Coupon code:" name="" placeholder="UNKNOWN_TYPE">
+    <article><input type="radio" id="option1" name="option" value="1"> I agree 
+        <input type="radio" id="option1" name="option" value="1"> I disagree </article>
+    <button type="submit">Complete reservation</button>
+    </form>
+</body>
+</html> 
