@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: pink;
+            text-align: center;
+            font-size: 44px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .content {
+            background-color: yellow;
+            text-align: center;
+            padding: 12px;
+            font-size: 20px;
+            color: rgb(23, 34, 244);
+        }
+        .content p {
+            margin: 10px 0;
+        }
+        .content p:nth-child(4), 
+        .content p:nth-child(8) {
+            color: red;
+        }
+        .dashed-line-1 {
+            border: none;
+            border-top: 2px dashed rgb(51, 75, 214);
+            margin: 20px outo;
+            padding: 1px;
+            width: 10%;
+        }
+        .red-text{
+            color: red;
+        }
+        .green-text{
+            color:darkgreen;
+        }
+        .dashed-line-2 {
+            border: none;
+            border-top: 2px dashed rgb(219, 34, 34);
+            margin: 20px outo;
+            padding: 1px;
+            width: 10%;
+        }
+        .bg-white {
+            background-color: white;
+            padding: 15px;
+            color: black;
+        }
+            
+    </style> 
+</head>
+<body>
+    <div class="header">
+        MẸ!
+    </div>
+
+    <div class="bg-white"></div>
+    
+    <div class="content">
+        <p>Mẹ là cả một trời thương</p>
+        <p>Mẹ là cả một thiên đường</p>
+        <p>Công ơn cha mẹ tựa biển trời</p>
+
+        <hr class="dashed-line-1">
+
+        <p class="red-text">Mẹ là cả một trời thương</p>
+        <p class="red-text">Mẹ là cả một thiên đường</p>
+        <p class="red-text">Công ơn cha mẹ tựa biển trời</p>
+
+        <hr class="dashed-line-2">
+
+        <p class="dark green-text">Mẹ là cả một trời thương</p>
+        <p class="dark green-text">Mẹ là cả một thiên đường</p>
+        <p class="dark green-text">Công ơn cha mẹ tựa biển trời</p>
+    </div>
+</body>
+</html>
