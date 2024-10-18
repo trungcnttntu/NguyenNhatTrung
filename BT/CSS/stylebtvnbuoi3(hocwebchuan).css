@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(249, 249, 249);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+}
+.centered-text{
+    background-color: #ccc;
+    color: white;
+    font-size: 50px;
+    height: 200px;
+    line-height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.mauchu-xam {
+    color:rgb(201, 199, 199);
+    font-size: 20px;
+    
+}
+.anh{
+    line-height: 2;
+    color:rgb(161, 163, 164);
+  
+}
+.mauxanh {
+    background-color: aqua;
+    color: white;
+    font-size: 24px;
+    height:40px;
+    width: 170px;
+    text-align: center;
+    line-height: 40px;
+}
+.chude {
+   width: 80%;
+   padding-top: 20px;
+}
