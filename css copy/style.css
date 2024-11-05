@@ -1,0 +1,103 @@
+* {
+    /* reset css */
+    margin: 0;
+    padding: 0;
+}
+/* KHAI BAO BIẾN HTML */
+:root  {
+    --primary-color: #4CAF4F;
+    --secondary-color: #4D4D4D;
+
+
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.btn{
+    color:white;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 10px 22px;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 130px;
+}
+/* CSS SELECTOR */
+.header-right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 18px;
+}
+.header-right .header-anchor {
+    text-decoration: none;
+    color: var(--secondary-color);
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #F5F7FA;
+}
+.banner-left{
+    padding: 100px 120px;
+    align-items: center;
+    /* list-style: 1.5; */
+    line-height: 1.5;
+}
+.banner-left .h1{
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--secondary-color)
+}
+.banner-left .p{
+    font-size: 11px;
+    line-height: 1.5;
+    color: #717171;
+    margin: 10px 0 20px;
+}
+.banner-right .img{
+    padding: 100px 150px;
+    width: 272px;
+    height: 283px;
+    align-items: center;
+}
+.f8y{
+    color: var(--primary-color);
+    font-size: 45px;
+}
+.banner-left .btn{
+    line-height: 1.5;
+}
+.banner1{
+    color: var(--secondary-color);
+}
+.client1 {
+    text-align: center;
+    line-height: 40px;
+    padding-top: 25px;
+}
+.hinhanh {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 130px;
+    max-width: 85%;
+    margin: auto;
+    padding: 25px 180px;
+}
+.hinhanh .img1{
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+}
